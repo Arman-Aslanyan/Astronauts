@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RefillOxygen : MonoBehaviour
 {
-    public int tank = 0;
+    public int tank = 15;
 
     public int tankLevel;
 
