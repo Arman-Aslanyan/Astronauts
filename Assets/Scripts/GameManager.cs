@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     //event to listen to for the score change
     public static UnityEvent ScoreUpdate = new UnityEvent();
 
+    //event to listen to for the oxygen level change
+    public static UnityEvent TankUpdate = new UnityEvent();
+
     //score property and int behind it
     private static int _score = 0;
     public static int score
@@ -31,6 +34,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //oxygen property and int behind it
+    private static int _oxygen = 100;
+    public static int oxygen
+    {
+        get
+        {
+            return _oxygen;
+        }
+        set
+        {
+            _oxygen = value;
+            TankUpdate.Invoke();
+        }
+    }
 
     //when made make sure this is the only manager, and make the manager persistant through levels
     private void Awake()
