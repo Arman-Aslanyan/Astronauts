@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
 
     //things for ground checking
     private bool isGrounded = false;
+    private bool isSoundPlay = false;
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
@@ -66,7 +67,9 @@ public class PlayerController : MonoBehaviour
 
     //animation
     private Animator myAnim;
-    
+
+    //soundFX
+    private RandomContainer SoundManager;
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +77,7 @@ public class PlayerController : MonoBehaviour
         myRb = GetComponent<Rigidbody2D>();
         myAud = GetComponent<AudioSource>();
         myAnim = GetComponent<Animator>();
+        SoundManager = GetComponent<RandomContainer>();
 
         jumps = extraJumps;
 
@@ -103,6 +107,8 @@ public class PlayerController : MonoBehaviour
                 myRb.velocity = (Vector2.up * jumpForce) + new Vector2(myRb.velocity.x, 0);
             }
             jumpPressed = true;
+            SoundManager.SetClipsToPlay(1);
+            SoundManager.PlaySound(true);
         }
         else if (Input.GetAxisRaw("Jump") == 1 && jumpPressed == false && jumps > 0 && isClimbing == false)
         {
@@ -194,6 +200,12 @@ public class PlayerController : MonoBehaviour
             myRb.drag = airDrag;
             myRb.AddForce(new Vector2(moveInputH * airSpeed  , 0));
         }
+        if (!isSoundPlay)
+        {
+            isSoundPlay = true;
+            SoundManager.SetClipsToPlay(0);
+            StartCoroutine(ReEnablePlaySound());
+        }
         //check if we need to flip the player direction
         if (facingRight == false && moveInputH > 0)
             Flip();
@@ -219,5 +231,11 @@ public class PlayerController : MonoBehaviour
             myRb.velocity = Vector2.zero;
             transform.position = RespawnPoint;
         }
+    }
+
+    public IEnumerator ReEnablePlaySound()
+    {
+        yield return new WaitForSeconds(0.45f);
+        isSoundPlay = false;
     }
 }
