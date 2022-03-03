@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class RefillOxygen : MonoBehaviour
 {
-    public int tank = 15;
-
-    public int tankLevel;
+    public int tankLevel = 15;
 
     public GameObject SpawnOnPickUp;
 

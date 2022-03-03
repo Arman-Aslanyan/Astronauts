@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     }
 
     //oxygen property and int behind it
-    private static int _oxygen = 100;
+    public static int _oxygen = 0;
     public static int oxygen
     {
         get
