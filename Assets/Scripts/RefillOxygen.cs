@@ -12,7 +12,7 @@ public class RefillOxygen : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameManager.oxygen += tankLevel;
+            //GameManager.oxygen += tankLevel;
             //AudioSource PAud = collision.gameObject.GetComponent<AudioSource>();
             //if (PAud != null)
             {
