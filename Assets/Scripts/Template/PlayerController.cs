@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
     public float airDrag = 1;
 
     private AudioSource myAud;
-    public AudioClip jumpNoise;
+    //public AudioClip jumpNoise;
 
     //ladder things
     private bool isClimbing;
@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
         //check if jump can be triggered
         if (Input.GetAxisRaw("Jump") == 1 && jumpPressed == false && isGrounded == true && isClimbing == false)
         {
-            myAud.PlayOneShot(jumpNoise);
+            //myAud.PlayOneShot(jumpNoise);
             myRb.drag = airDrag;
             if ((myRb.velocity.x < 0 && moveInputH > 0) || (myRb.velocity.x > 0 && moveInputH < 0))
             {
@@ -112,7 +112,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetAxisRaw("Jump") == 1 && jumpPressed == false && jumps > 0 && isClimbing == false)
         {
-            myAud.PlayOneShot(jumpNoise);
+            //myAud.PlayOneShot(jumpNoise);
             myRb.drag = airDrag;
             if ((myRb.velocity.x < 0 && moveInputH > 0) || (myRb.velocity.x > 0 && moveInputH < 0))
             {
@@ -200,10 +200,11 @@ public class PlayerController : MonoBehaviour
             myRb.drag = airDrag;
             myRb.AddForce(new Vector2(moveInputH * airSpeed  , 0));
         }
-        if (!isSoundPlay)
+        if (!isSoundPlay && isGrounded && moveInputH > 0)
         {
             isSoundPlay = true;
             SoundManager.SetClipsToPlay(0);
+            SoundManager.PlaySound(true);
             StartCoroutine(ReEnablePlaySound());
         }
         //check if we need to flip the player direction
@@ -235,7 +236,7 @@ public class PlayerController : MonoBehaviour
 
     public IEnumerator ReEnablePlaySound()
     {
-        yield return new WaitForSeconds(0.45f);
+        yield return new WaitForSeconds(0.5f);
         isSoundPlay = false;
     }
 }
