@@ -49,6 +49,11 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: -8739900590910830691, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
+  - {fileID: 3194685568629326943, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
+  - {fileID: -1681879268117809760, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
+  - {fileID: 1958535625665745949, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
+  - {fileID: -5800790887907101290, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
   - {fileID: 21300000, guid: 873e7c5406a5940438b77f0d8fc1f62e, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -278,6 +283,11 @@ SpriteAtlas:
   - {fileID: -3816996514789301178, guid: 52e6894f16eafd34b896c0a7dd489c6f, type: 3}
   - {fileID: 5872994625174161936, guid: 52e6894f16eafd34b896c0a7dd489c6f, type: 3}
   m_PackedSpriteNamesToIndex:
+  - MCjumpfront_1
+  - MCjumpfront_0
+  - MCjumpfront_3
+  - MCjumpfront_2
+  - MCjumpfront_4
   - STARsprite
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
