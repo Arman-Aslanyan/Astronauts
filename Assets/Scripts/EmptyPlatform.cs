@@ -6,6 +6,7 @@ public class EmptyPlatform : MonoBehaviour
 {
     public int index;
     public CompanionPlatform companion;
+    private PlayerCompanion star;
     private Transform player;
     private int num;
 
@@ -13,6 +14,7 @@ public class EmptyPlatform : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>().transform;
+        star = companion.GetComponent<PlayerCompanion>();
         GetComponent<BoxCollider2D>().enabled = false;
     }
 
@@ -27,12 +29,21 @@ public class EmptyPlatform : MonoBehaviour
                 PlayerHasCameInReach();
             }
         }
+        else if (!PlayerCompanion.shouldGoToPlat)
+        {
+            star.goToPlat = false;
+            star.platformTarget = null;
+            //PlayerCompanion.shouldGoToPlat = false;
+        }
     }
 
     public void PlayerHasCameInReach()
     {
         companion.SetCurrentPlat(index);
         companion.MakePlatform();
+        star.platformTarget = transform;
+        star.goToPlat = true;
+        PlayerCompanion.shouldGoToPlat = true;
         num = 0;
     }
 

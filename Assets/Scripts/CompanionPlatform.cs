@@ -43,6 +43,8 @@ public class CompanionPlatform : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         allEmptyPlats[curPlatNum].GetComponent<BoxCollider2D>().enabled = false;
+        FindObjectOfType<PlayerCompanion>().goToPlat = false;
+        PlayerCompanion.shouldGoToPlat = false;
         curPlatNum = -1;
     }
 }
