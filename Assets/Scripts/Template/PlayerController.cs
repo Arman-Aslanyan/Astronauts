@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
             }
             jumpPressed = true;
             SoundManager.SetClipsToPlay(1);
-            SoundManager.PlaySound(true);
+            SoundManager.PlaySound(false);
         }
         else if (Input.GetAxisRaw("Jump") == 1 && jumpPressed == false && jumps > 0 && isClimbing == false)
         {
@@ -192,6 +192,7 @@ public class PlayerController : MonoBehaviour
 
         if (isGrounded && !jumpPressed || isClimbing)
         {
+            //myAnim.SetBool()
             myRb.drag = groundDrag;
             myRb.AddForce(new Vector2(moveInputH * speed , 0));
         }
@@ -204,7 +205,7 @@ public class PlayerController : MonoBehaviour
         {
             isSoundPlay = true;
             SoundManager.SetClipsToPlay(0);
-            SoundManager.PlaySound(true);
+            SoundManager.PlaySound(false);
             StartCoroutine(ReEnablePlaySound());
         }
         //check if we need to flip the player direction
