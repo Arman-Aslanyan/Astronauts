@@ -9,6 +9,7 @@ public class EmptyPlatform : MonoBehaviour
     private PlayerCompanion star;
     private Transform player;
     private int num;
+    //public bool jank = true;
 
     // Start is called before the first frame update
     void Start()
@@ -21,20 +22,16 @@ public class EmptyPlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(Vector2.Distance(transform.position, player.position)) <= 5)
+        if (Mathf.Abs(Vector2.Distance(transform.position, player.position)) <= 2.5f)
         {
             num++;
             if (num == 1)
-            {
                 PlayerHasCameInReach();
-            }
         }
-        else if (!PlayerCompanion.shouldGoToPlat)
+        /*else
         {
-            star.goToPlat = false;
-            star.platformTarget = null;
-            //PlayerCompanion.shouldGoToPlat = false;
-        }
+            StartCoroutine(companion.WaitToDisable());
+        }*/
     }
 
     public void PlayerHasCameInReach()
@@ -43,7 +40,8 @@ public class EmptyPlatform : MonoBehaviour
         companion.MakePlatform();
         star.platformTarget = transform;
         star.goToPlat = true;
-        PlayerCompanion.shouldGoToPlat = true;
+        //jank = true;
+        //PlayerCompanion.shouldGoToPlat = true;
         num = 0;
     }
 

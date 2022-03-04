@@ -41,10 +41,11 @@ public class CompanionPlatform : MonoBehaviour
 
     public IEnumerator WaitToDisable()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.75f);
         allEmptyPlats[curPlatNum].GetComponent<BoxCollider2D>().enabled = false;
         FindObjectOfType<PlayerCompanion>().goToPlat = false;
-        PlayerCompanion.shouldGoToPlat = false;
+        FindObjectOfType<PlayerCompanion>().platformTarget = null;
+        print("disabled");
         curPlatNum = -1;
     }
 }
