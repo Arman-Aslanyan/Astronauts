@@ -8,8 +8,8 @@
 //game jam edits
 /*****************************************
 * Edited by: Arman Aslanyan
-* Last Edited: 3/1/2022
-* Description: space-like player movement
+* Last Edited: 3/4/2022
+* Description: space-like player movement + soundFX
 * *************************************/
 
 using System.Collections;
