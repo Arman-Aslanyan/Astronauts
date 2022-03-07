@@ -108,6 +108,8 @@ public class PlayerController : MonoBehaviour
             }
             jumpPressed = true;
             SoundManager.SetClipsToPlay(1);
+            myAud.volume = 0.15f;
+            StartCoroutine(ResetVolume());
             SoundManager.PlaySound(true);
         }
         else if (Input.GetAxisRaw("Jump") == 1 && jumpPressed == false && jumps > 0 && isClimbing == false)
@@ -239,5 +241,11 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         isSoundPlay = false;
+    }
+
+    public IEnumerator ResetVolume()
+    {
+        yield return new WaitForSeconds(0.25f);
+        myAud.volume = 1;
     }
 }
