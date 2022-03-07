@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
             }
             jumpPressed = true;
             SoundManager.SetClipsToPlay(1);
-            SoundManager.PlaySound(false);
+            SoundManager.PlaySound(true);
         }
         else if (Input.GetAxisRaw("Jump") == 1 && jumpPressed == false && jumps > 0 && isClimbing == false)
         {
@@ -201,7 +201,7 @@ public class PlayerController : MonoBehaviour
             myRb.drag = airDrag;
             myRb.AddForce(new Vector2(moveInputH * airSpeed  , 0));
         }
-        if (!isSoundPlay && isGrounded && moveInputH > 0)
+        if (!isSoundPlay && isGrounded && (moveInputH > 0 || moveInputH < 0))
         {
             isSoundPlay = true;
             SoundManager.SetClipsToPlay(0);
