@@ -54,6 +54,9 @@ SpriteAtlas:
   - {fileID: -1681879268117809760, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
   - {fileID: 1958535625665745949, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
   - {fileID: -5800790887907101290, guid: b50a24c07098ffa408031c437ecc4825, type: 3}
+  - {fileID: -5838776124296442228, guid: c82c7144c24d897419db7898a3d8e09e, type: 3}
+  - {fileID: 8438807076006024829, guid: c82c7144c24d897419db7898a3d8e09e, type: 3}
+  - {fileID: -7456559617483215669, guid: c82c7144c24d897419db7898a3d8e09e, type: 3}
   - {fileID: 21300000, guid: 873e7c5406a5940438b77f0d8fc1f62e, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -288,6 +291,9 @@ SpriteAtlas:
   - MCjumpfront_3
   - MCjumpfront_2
   - MCjumpfront_4
+  - tiles-1.png_2
+  - tiles-1.png_0
+  - tiles-1.png_1
   - STARsprite
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
