@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class RefillOxygen : MonoBehaviour
 {
-    public int tankLevel = 15;
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            //GameManager.oxygen += tankLevel;
-            //AudioSource PAud = collision.gameObject.GetComponent<AudioSource>();
-            //if (PAud != null)
+            Oxygen tank = other.GetComponent<Oxygen>();
+            tank.time = 0;
+            tank.slider.value = tank.slider.maxValue;
         }
     }
 }

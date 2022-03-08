@@ -59,6 +59,10 @@ SpriteAtlas:
   - {fileID: 8438807076006024829, guid: c82c7144c24d897419db7898a3d8e09e, type: 3}
   - {fileID: -7456559617483215669, guid: c82c7144c24d897419db7898a3d8e09e, type: 3}
   - {fileID: 21300000, guid: 873e7c5406a5940438b77f0d8fc1f62e, type: 3}
+  - {fileID: 6286667929397789980, guid: 5a92e3f583aa2c148a132b41871e8527, type: 3}
+  - {fileID: -5173060650962062434, guid: 5a92e3f583aa2c148a132b41871e8527, type: 3}
+  - {fileID: -7421790473320667095, guid: 5a92e3f583aa2c148a132b41871e8527, type: 3}
+  - {fileID: 2312289834445006714, guid: 5a92e3f583aa2c148a132b41871e8527, type: 3}
   - {fileID: -1528869228354445471, guid: fa6020369bf3f404bb89c2320be975b5, type: 3}
   - {fileID: 8836667903077230373, guid: fa6020369bf3f404bb89c2320be975b5, type: 3}
   - {fileID: 1485637708333654533, guid: fa6020369bf3f404bb89c2320be975b5, type: 3}
@@ -303,6 +307,10 @@ SpriteAtlas:
   - tiles-1.png_0
   - tiles-1.png_1
   - STARsprite
+  - MCjumpside_3
+  - MCjumpside_2
+  - MCjumpside_1
+  - MCjumpside_0
   - newTiles_4
   - newTiles_3
   - newTiles_2

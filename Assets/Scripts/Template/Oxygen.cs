@@ -8,11 +8,12 @@ public class Oxygen : MonoBehaviour
     public int _Oxygen = 80;
     public Slider slider;
 
-    private float time;
+    public float time;
     // Start is called before the first frame update
     void Start()
     {
         slider.maxValue = _Oxygen;
+        slider.value = _Oxygen;
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class Oxygen : MonoBehaviour
         if(time >= 1f)
         {
             _Oxygen--;
-            SetOxygen(_Oxygen);
+            SetOxygen();
             time = 0;
         }
         else
@@ -29,8 +30,8 @@ public class Oxygen : MonoBehaviour
             time += Time.deltaTime;
         }
     }
-    public void SetOxygen(int oxygen)
+    public void SetOxygen()
     {
-        slider.value = oxygen;
+        slider.value -= 1;
     }
 }
