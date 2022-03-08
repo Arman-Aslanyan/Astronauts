@@ -13,8 +13,6 @@ public class Collectible : MonoBehaviour
 
     public AudioClip PickUpNoise;
 
-    public GameObject SpawnOnPickUp;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -37,10 +35,10 @@ public class Collectible : MonoBehaviour
             {
                 PAud.PlayOneShot(PickUpNoise);
             }
-            if(SpawnOnPickUp != null)
-            {
-                Instantiate(SpawnOnPickUp, transform.position, transform.rotation);
-            }
+            //if(SpawnOnPickUp != null)
+            //{
+            //    Instantiate(SpawnOnPickUp, transform.position, transform.rotation);
+            //}
             Destroy(gameObject);
         }
     }
