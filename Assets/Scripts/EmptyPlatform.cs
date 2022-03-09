@@ -29,10 +29,10 @@ public class EmptyPlatform : MonoBehaviour
             if (num == 1)
                 PlayerHasCameInReach();
         }
-        /*else
+        else if (Mathf.Abs(Vector2.Distance(transform.position, companion.transform.position)) <= 2.5f && Mathf.Abs(Vector2.Distance(transform.position, player.position)) >= 5)
         {
             StartCoroutine(companion.WaitToDisable());
-        }*/
+        }
     }
 
     public void PlayerHasCameInReach()

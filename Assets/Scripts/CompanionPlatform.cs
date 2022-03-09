@@ -46,6 +46,9 @@ public class CompanionPlatform : MonoBehaviour
         FindObjectOfType<PlayerCompanion>().goToPlat = false;
         FindObjectOfType<PlayerCompanion>().platformTarget = null;
         print("disabled");
-        curPlatNum = -1;
+        if (curPlatNum != -1)
+        {
+            curPlatNum = -1;
+        }
     }
 }
