@@ -306,6 +306,7 @@ SpriteAtlas:
   - {fileID: -2209401061123471698, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 1018328791618719094, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 6731733094262721628, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
+  - {fileID: 21300000, guid: 3882891f22379f34fbea7758ec274dc2, type: 3}
   - {fileID: -844241359161577329, guid: 52e6894f16eafd34b896c0a7dd489c6f, type: 3}
   - {fileID: 8183115210131636588, guid: 52e6894f16eafd34b896c0a7dd489c6f, type: 3}
   - {fileID: -5887957026352861078, guid: 52e6894f16eafd34b896c0a7dd489c6f, type: 3}
@@ -569,6 +570,7 @@ SpriteAtlas:
   - tileset_96
   - tileset_95
   - tileset_94
+  - Goalpoint
   - MCjog_0
   - MCjog_1
   - MCjog_2
