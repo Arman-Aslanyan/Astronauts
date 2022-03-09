@@ -15,6 +15,7 @@ public class EmptyPlatform : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>().transform;
+        companion = FindObjectOfType<CompanionPlatform>();
         star = companion.GetComponent<PlayerCompanion>();
         GetComponent<BoxCollider2D>().enabled = false;
     }
