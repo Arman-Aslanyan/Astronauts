@@ -11,6 +11,7 @@ public class RefillOxygen : MonoBehaviour
             Oxygen tank = other.GetComponent<Oxygen>();
             tank.time = 0;
             tank.slider.value = tank.slider.maxValue;
+            tank._Oxygen = (int)tank.slider.maxValue;
         }
     }
 }

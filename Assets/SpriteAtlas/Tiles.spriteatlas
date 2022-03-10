@@ -197,6 +197,34 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 36e596e9e2dcfa84db720192cb70de69, type: 3}
   - {fileID: 21300000, guid: 2a4b774b9444cc346aced6e39d8cc1e9, type: 3}
   - {fileID: 7482667652216324306, guid: 75f4300c97f98a34db9e214a1ab695f5, type: 3}
+  - {fileID: -6122677831412542774, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -2764748532448665432, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -8066933033526100076, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 2805056190242468093, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 1058727540664200338, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -1803095929311229923, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 8260593678805815243, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -8402434221677368487, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -749844309818913905, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 7052572112265331803, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 5611726778691500533, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -1126001271867032160, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 4187249990358306656, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -3720144681841282665, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -8104843760893107934, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 5258094087245161575, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 7161952516336774174, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 7865977820450493100, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -6734979325207580633, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -7754677469495048761, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -9086704380012975273, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -3554310067906752686, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 6218041774482215950, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -542770663930821345, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 5408857611434564306, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 5731171744400868968, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: -8446469280520293225, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
+  - {fileID: 8382673314973266243, guid: 9228331c48fe0ef46afa3979df59df8c, type: 3}
   - {fileID: 21300000, guid: 7465827d04742e6469fb2e7ec355d2ea, type: 3}
   - {fileID: 1671283345461455480, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
   - {fileID: -3638366375080524030, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
@@ -463,6 +491,34 @@ SpriteAtlas:
   - OxygenTank
   - background-1.png
   - Square
+  - CompletionAni (2)_4
+  - CompletionAni (2)_3
+  - CompletionAni (2)_2
+  - CompletionAni (2)_1
+  - CompletionAni (2)_0
+  - CompletionAni (2)_9
+  - CompletionAni (2)_8
+  - CompletionAni (2)_12
+  - CompletionAni (2)_13
+  - CompletionAni (2)_10
+  - CompletionAni (2)_11
+  - CompletionAni (2)_16
+  - CompletionAni (2)_17
+  - CompletionAni (2)_14
+  - CompletionAni (2)_15
+  - CompletionAni (2)_18
+  - CompletionAni (2)_19
+  - CompletionAni (2)_27
+  - CompletionAni (2)_26
+  - CompletionAni (2)_25
+  - CompletionAni (2)_24
+  - CompletionAni (2)_23
+  - CompletionAni (2)_22
+  - CompletionAni (2)_21
+  - CompletionAni (2)_20
+  - CompletionAni (2)_7
+  - CompletionAni (2)_6
+  - CompletionAni (2)_5
   - CharacterStandPNG
   - rotating_coin_0
   - rotating_coin_1
