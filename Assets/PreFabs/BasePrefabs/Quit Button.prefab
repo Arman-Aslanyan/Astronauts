@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8078156801103953343}
   - component: {fileID: 8078156801103953340}
   - component: {fileID: 8078156801103953341}
-  - component: {fileID: 8078156801103953282}
+  - component: {fileID: 6416098676575376883}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -29,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 8078156801103953280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 8078156802848909354}
   m_Father: {fileID: 0}
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.23629406, b: 0.23629406, a: 1}
+  m_Color: {r: 0.1286525, g: 0.8301887, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8078156801103953282}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: QuitButton, Assembly-CSharp
         m_MethodName: QuitNow
         m_Mode: 1
@@ -134,7 +134,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8078156801103953282
+--- !u!114 &6416098676575376883
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,9 +143,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8078156801103953280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e2e74bb089f6c343ae26dd8a3e8ae4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6abc98311a7a01947aebd0a2495c444c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelToLoad: MainMenu
 --- !u!1 &8078156802848909355
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,10 +179,10 @@ RectTransform:
   m_Father: {fileID: 8078156801103953283}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8078156802848909348
 CanvasRenderer:
@@ -211,7 +212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Quit
+  m_text: 'Exit
 
 '
   m_isRightToLeft: 0

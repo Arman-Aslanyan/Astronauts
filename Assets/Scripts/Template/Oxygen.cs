@@ -31,6 +31,8 @@ public class Oxygen : MonoBehaviour
         {
             time += Time.deltaTime;
         }
+
+        if (Input.GetKeyDown(KeyCode.V)) SceneManager.LoadScene("VictoryScene");
     }
     public void SetOxygen()
     {
