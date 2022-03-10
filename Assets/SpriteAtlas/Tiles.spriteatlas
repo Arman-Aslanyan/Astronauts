@@ -195,6 +195,7 @@ SpriteAtlas:
   - {fileID: 4746690805261741705, guid: 0674ce7981286894887423b1430aa05f, type: 3}
   - {fileID: 5729228346715255035, guid: 0674ce7981286894887423b1430aa05f, type: 3}
   - {fileID: 21300000, guid: 36e596e9e2dcfa84db720192cb70de69, type: 3}
+  - {fileID: 21300000, guid: 2a4b774b9444cc346aced6e39d8cc1e9, type: 3}
   - {fileID: 7482667652216324306, guid: 75f4300c97f98a34db9e214a1ab695f5, type: 3}
   - {fileID: 21300000, guid: 7465827d04742e6469fb2e7ec355d2ea, type: 3}
   - {fileID: 1671283345461455480, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
@@ -306,6 +307,7 @@ SpriteAtlas:
   - {fileID: -2209401061123471698, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 1018328791618719094, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 6731733094262721628, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
+  - {fileID: 21300000, guid: fd3c22be08d35b247913052c9a79b05c, type: 3}
   - {fileID: 21300000, guid: 3882891f22379f34fbea7758ec274dc2, type: 3}
   - {fileID: -844241359161577329, guid: 52e6894f16eafd34b896c0a7dd489c6f, type: 3}
   - {fileID: 8183115210131636588, guid: 52e6894f16eafd34b896c0a7dd489c6f, type: 3}
@@ -459,6 +461,7 @@ SpriteAtlas:
   - TitleScreen_13
   - TitleScreen_12
   - OxygenTank
+  - background-1.png
   - Square
   - CharacterStandPNG
   - rotating_coin_0
@@ -570,6 +573,7 @@ SpriteAtlas:
   - tileset_96
   - tileset_95
   - tileset_94
+  - background 2 .png
   - Goalpoint
   - MCjog_0
   - MCjog_1
