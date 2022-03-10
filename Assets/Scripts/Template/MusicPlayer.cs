@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 //make a struct that can be seen in the editor that links a level to a music track
 [System.Serializable]
     public struct LevelTrack
@@ -16,7 +15,6 @@ using UnityEngine.SceneManagement;
         public string LevelName;
         public AudioClip Music;
     };
-
 
 public class MusicPlayer : MonoBehaviour
 {
@@ -45,21 +43,22 @@ public class MusicPlayer : MonoBehaviour
     {
         myAud = GetComponent<AudioSource>();
 
+        if (SceneManager.GetActiveScene().name.Equals("EndScene") || SceneManager.GetActiveScene().name.Equals("VictoryScene"))
+            myAud.loop = false;
+        else
+            myAud.loop = true;
         //play first track
         FindRightTrack();
-        
     }
 
     private void OnLevelWasLoaded(int level)
     {
-        
         FindRightTrack();
     }
 
     //This should check if the correct music is playing on any given level, and allow levels that share a track to keep playing rather than start and stop
     private void FindRightTrack()
     {
-        
         foreach (LevelTrack LT in levelTracks)
         {
             if (SceneManager.GetActiveScene().name == LT.LevelName)
