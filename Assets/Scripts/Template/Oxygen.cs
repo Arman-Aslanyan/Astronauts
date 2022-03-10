@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Oxygen : MonoBehaviour
 {
@@ -19,7 +20,8 @@ public class Oxygen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(time >= 1f)
+        if (_Oxygen < 0) PlayerDeath();
+        else if(time >= 1f)
         {
             _Oxygen--;
             SetOxygen();
@@ -32,6 +34,12 @@ public class Oxygen : MonoBehaviour
     }
     public void SetOxygen()
     {
-        slider.value -= 1;
+        if (slider.value > 0 && slider.value <= slider.maxValue)
+            slider.value -= 1;
+    }
+
+    public void PlayerDeath()
+    {
+        SceneManager.LoadScene("EndScene");
     }
 }

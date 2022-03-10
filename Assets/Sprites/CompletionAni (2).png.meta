@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: 9228331c48fe0ef46afa3979df59df8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1058727540664200338
+    second: CompletionAni (2)_0
+  - first:
+      213: 2805056190242468093
+    second: CompletionAni (2)_1
+  - first:
+      213: -8066933033526100076
+    second: CompletionAni (2)_2
+  - first:
+      213: -2764748532448665432
+    second: CompletionAni (2)_3
+  - first:
+      213: -6122677831412542774
+    second: CompletionAni (2)_4
+  - first:
+      213: 8382673314973266243
+    second: CompletionAni (2)_5
+  - first:
+      213: -8446469280520293225
+    second: CompletionAni (2)_6
+  - first:
+      213: 5731171744400868968
+    second: CompletionAni (2)_7
+  - first:
+      213: 8260593678805815243
+    second: CompletionAni (2)_8
+  - first:
+      213: -1803095929311229923
+    second: CompletionAni (2)_9
+  - first:
+      213: 7052572112265331803
+    second: CompletionAni (2)_10
+  - first:
+      213: 5611726778691500533
+    second: CompletionAni (2)_11
+  - first:
+      213: -8402434221677368487
+    second: CompletionAni (2)_12
+  - first:
+      213: -749844309818913905
+    second: CompletionAni (2)_13
+  - first:
+      213: -3720144681841282665
+    second: CompletionAni (2)_14
+  - first:
+      213: -8104843760893107934
+    second: CompletionAni (2)_15
+  - first:
+      213: -1126001271867032160
+    second: CompletionAni (2)_16
+  - first:
+      213: 4187249990358306656
+    second: CompletionAni (2)_17
+  - first:
+      213: 5258094087245161575
+    second: CompletionAni (2)_18
+  - first:
+      213: 7161952516336774174
+    second: CompletionAni (2)_19
+  - first:
+      213: 5408857611434564306
+    second: CompletionAni (2)_20
+  - first:
+      213: -542770663930821345
+    second: CompletionAni (2)_21
+  - first:
+      213: 6218041774482215950
+    second: CompletionAni (2)_22
+  - first:
+      213: -3554310067906752686
+    second: CompletionAni (2)_23
+  - first:
+      213: -9086704380012975273
+    second: CompletionAni (2)_24
+  - first:
+      213: -7754677469495048761
+    second: CompletionAni (2)_25
+  - first:
+      213: -6734979325207580633
+    second: CompletionAni (2)_26
+  - first:
+      213: 7865977820450493100
+    second: CompletionAni (2)_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CompletionAni (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c663fb61b51be00800000000000000
+      internalID: 1058727540664200338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 636
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0b9624ebf8de620800000000000000
+      internalID: 2805056190242468093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 636
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fffcd752f7c0090800000000000000
+      internalID: -8066933033526100076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 636
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a06d16abd3a1a9d0800000000000000
+      internalID: -2764748532448665432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac21f70a3f0e70ba0800000000000000
+      internalID: -6122677831412542774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 530
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341b02777fc355470800000000000000
+      internalID: 8382673314973266243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 530
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794b650d0fc18ca80800000000000000
+      internalID: -8446469280520293225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 530
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86605c32656398f40800000000000000
+      internalID: 5731171744400868968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfce033f2683a270800000000000000
+      internalID: 8260593678805815243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 424
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1883753ecd1af6e0800000000000000
+      internalID: -1803095929311229923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 424
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54c66058f4cfd160800000000000000
+      internalID: 7052572112265331803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 424
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f93474e5cbd0ed40800000000000000
+      internalID: 5611726778691500533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ba558e79e846b80800000000000000
+      internalID: -8402434221677368487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 318
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b4564b2940895f0800000000000000
+      internalID: -749844309818913905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 318
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791bacd3f146f5cc0800000000000000
+      internalID: -3720144681841282665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 318
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221ecef6a8fc58f80800000000000000
+      internalID: -8104843760893107934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad3abd1fc3af50f0800000000000000
+      internalID: -1126001271867032160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 212
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f80156ea91c1a30800000000000000
+      internalID: 4187249990358306656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 212
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76464d9b6b088f840800000000000000
+      internalID: 5258094087245161575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 212
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce7723edd546360800000000000000
+      internalID: 7161952516336774174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da993a175f101b40800000000000000
+      internalID: 5408857611434564306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 106
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1586e5f4f0b778f0800000000000000
+      internalID: -542770663930821345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 106
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e045d8e9c0cea4650800000000000000
+      internalID: 6218041774482215950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_23
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 106
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fc2d423dd8caec0800000000000000
+      internalID: -3554310067906752686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b2752828a85e180800000000000000
+      internalID: -9086704380012975273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5c5037de9d16490800000000000000
+      internalID: -7754677469495048761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720f667bcfb8882a0800000000000000
+      internalID: -6734979325207580633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompletionAni (2)_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca29d07e621992d60800000000000000
+      internalID: 7865977820450493100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
