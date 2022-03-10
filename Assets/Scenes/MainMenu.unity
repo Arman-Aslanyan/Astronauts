@@ -351,6 +351,8 @@ MonoBehaviour:
     Music: {fileID: 8300000, guid: 415f02a92ef4a3c4ca43ba84843d9da2, type: 3}
   - LevelName: EndScene
     Music: {fileID: 8300000, guid: 543dd865564fd9849a627b9cabaf2978, type: 3}
+  - LevelName: VictoryScene
+    Music: {fileID: 8300000, guid: 4b0e8d0c9e0fc214f8d3e9204eff4b21, type: 3}
 --- !u!4 &1025920353
 Transform:
   m_ObjectHideFlags: 0
