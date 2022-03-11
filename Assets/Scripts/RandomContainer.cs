@@ -7,6 +7,7 @@ public class RandomContainer : MonoBehaviour
 {
     public AudioClip[] walkClips;
     public AudioClip[] jumpClips;
+    public AudioClip[] oxyClips;
     private List<AudioClip> toPlay = new List<AudioClip>();
     public AudioMixerGroup output;
     public float minPitch = 0.75f;
@@ -38,6 +39,21 @@ public class RandomContainer : MonoBehaviour
         toPlay.Clear();
     }
 
+    public void PlayWalkClips()
+    {
+        SetClipsToPlay(0);
+    }
+
+    public void PlayJumpClips()
+    {
+        SetClipsToPlay(1);
+    }
+
+    public void PlayLowOxyClips()
+    {
+        SetClipsToPlay(2);
+    }
+
     public void SetClipsToPlay(int num)
     {
         if (num == 0)
@@ -49,6 +65,10 @@ public class RandomContainer : MonoBehaviour
         {
             foreach (AudioClip clip in jumpClips)
                 toPlay.Add(clip);
+        }
+        else if (num == 2)
+        {
+            toPlay.Add(oxyClips[0]);
         }
     }
 }

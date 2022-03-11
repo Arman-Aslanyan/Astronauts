@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
                 myRb.velocity = (Vector2.up * jumpForce) + new Vector2(myRb.velocity.x, 0);
             }
             jumpPressed = true;
-            SoundManager.SetClipsToPlay(1);
+            SoundManager.PlayJumpClips();
             myAud.volume = 0.15f;
             StartCoroutine(ResetVolume());
             SoundManager.PlaySound(true);
@@ -206,7 +206,7 @@ public class PlayerController : MonoBehaviour
         if (!isSoundPlay && isGrounded && (moveInputH > 0 || moveInputH < 0))
         {
             isSoundPlay = true;
-            SoundManager.SetClipsToPlay(0);
+            SoundManager.PlayWalkClips();
             SoundManager.PlaySound(false);
             StartCoroutine(ReEnablePlaySound());
         }
