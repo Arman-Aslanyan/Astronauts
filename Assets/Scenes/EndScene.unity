@@ -281,6 +281,21 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8078156801103953341, guid: 615fca94e3b6ef04b90d5d3ed5c270b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 32119631}
+    - target: {fileID: 8078156801103953341, guid: 615fca94e3b6ef04b90d5d3ed5c270b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LevelLoad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078156801103953341, guid: 615fca94e3b6ef04b90d5d3ed5c270b3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StartButton, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8078156802848909349, guid: 615fca94e3b6ef04b90d5d3ed5c270b3,
         type: 3}
       propertyPath: m_fontColor.b
@@ -314,6 +329,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 32119629}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &32119631 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6416098676575376883, guid: 615fca94e3b6ef04b90d5d3ed5c270b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 32119629}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6abc98311a7a01947aebd0a2495c444c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1153545975
 GameObject:
   m_ObjectHideFlags: 0
