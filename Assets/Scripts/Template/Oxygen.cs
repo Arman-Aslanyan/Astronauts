@@ -35,6 +35,8 @@ public class Oxygen : MonoBehaviour
                 oxyAudioSource.PlaySound(true);
                 StartCoroutine(WaitToReEnable());
             }
+            else if (_Oxygen > Mathf.RoundToInt(slider.maxValue * 0.3f) - 1 && playingAud)
+                oxyAudioSource.StopSound();
         }
         else
         {

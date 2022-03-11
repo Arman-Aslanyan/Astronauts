@@ -39,6 +39,12 @@ public class RandomContainer : MonoBehaviour
         toPlay.Clear();
     }
 
+    public void StopSound()
+    {
+        AudioSource source = gameObject.GetComponent<AudioSource>();
+        source.Stop();
+    }
+
     public void PlayWalkClips()
     {
         SetClipsToPlay(0);
